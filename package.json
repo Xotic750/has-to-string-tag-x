@@ -1,6 +1,6 @@
 {
   "name": "has-to-string-tag-x",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "hasToStringTag test if @@toStringTag is supported.",
   "homepage": "https://github.com/Xotic750/has-to-string-tag-x",
   "author": {
@@ -28,10 +28,12 @@
     "url": "https://github.com/Xotic750/has-to-string-tag-x/issues"
   },
   "dependencies": {
-    "has-symbol-support-x": "^1.0.1"
+    "has-symbol-support-x": "^1.0.2"
   },
   "devDependencies": {
-    "es5-shim": "^4.4.0",
+    "es5-shim": "^4.4.1",
+    "es6-shim": "^0.34.0",
+    "json3": "^3.3.2",
     "jscs": "^2.7.0",
     "uglify-js": "^2.6.1",
     "browserify": "12.0.1",
