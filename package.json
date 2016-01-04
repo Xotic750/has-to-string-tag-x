@@ -28,7 +28,7 @@
     "url": "https://github.com/Xotic750/has-to-string-tag-x/issues"
   },
   "dependencies": {
-    "has-symbol-support-x": "^1.0.2"
+    "has-symbol-support-x": "^1.0.3"
   },
   "devDependencies": {
     "es5-shim": "^4.4.1",
