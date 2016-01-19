@@ -1,14 +1,15 @@
 {
   "name": "has-to-string-tag-x",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "hasToStringTag test if @@toStringTag is supported.",
   "homepage": "https://github.com/Xotic750/has-to-string-tag-x",
   "author": {
     "name": "Graham Fairweather",
     "email": "xotic750@gmail.com"
   },
-  "copyright": "Copyright (c) 2015",
+  "copyright": "Copyright (c) 2015-2016",
   "keywords": [
+    "ES6",
     "hasToStringTag",
     "module",
     "javascript",
@@ -28,7 +29,7 @@
     "url": "https://github.com/Xotic750/has-to-string-tag-x/issues"
   },
   "dependencies": {
-    "has-symbol-support-x": "^1.0.5"
+    "has-symbol-support-x": "^1.0.6"
   },
   "devDependencies": {
     "es5-shim": "^4.4.1",
