@@ -31,10 +31,7 @@
 
   describe('Basic tests', function () {
     it('results should match', function () {
-      var a = typeof Symbol === 'function';
-      var b = typeof Symbol() === 'symbol';
-      var c = typeof Symbol.toStringTag === 'symbol';
-      var expected = a && b && c;
+      var expected = typeof Symbol === 'function' && typeof Symbol() === 'symbol' && typeof Symbol.toStringTag === 'symbol';
       expect(hasToStringTag).toEqual(expected);
     });
   });
