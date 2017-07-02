@@ -28,26 +28,19 @@
  *
  * @see {@link http://www.ecma-international.org/ecma-262/6.0/#sec-@@tostringtag|26.3.1 @@toStringTag}
  *
- * @version 1.2.0
+ * @version 1.3.0
  * @author Xotic750 <Xotic750@gmail.com>
  * @copyright  Xotic750
  * @license {@link <https://opensource.org/licenses/MIT> MIT}
  * @module has-to-string-tag-x
  */
 
-/* eslint strict: 1 */
+'use strict';
 
-/* global module */
-
-;(function () { // eslint-disable-line no-extra-semi
-
-  'use strict';
-
-  /**
-   * Indicates if `Symbol.toStringTag`exists and is the correct type.
-   * `true`, if it exists and is the correct type, otherwise `false`.
-   *
-   * @type boolean
-   */
-  module.exports = require('has-symbol-support-x') && typeof Symbol.toStringTag === 'symbol';
-}());
+/**
+ * Indicates if `Symbol.toStringTag`exists and is the correct type.
+ * `true`, if it exists and is the correct type, otherwise `false`.
+ *
+ * @type boolean
+ */
+module.exports = require('has-symbol-support-x') && typeof Symbol.toStringTag === 'symbol';
