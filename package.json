@@ -1,6 +1,6 @@
 {
   "name": "has-to-string-tag-x",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "Tests if ES6 @@toStringTag is supported.",
   "homepage": "https://github.com/Xotic750/has-to-string-tag-x",
   "author": {
@@ -29,7 +29,7 @@
     "url": "https://github.com/Xotic750/has-to-string-tag-x/issues"
   },
   "dependencies": {
-    "has-symbol-support-x": "^1.4.0"
+    "has-symbol-support-x": "^1.4.1"
   },
   "devDependencies": {
     "@xotic750/eslint-config-standard-x": "^2.2.1",
