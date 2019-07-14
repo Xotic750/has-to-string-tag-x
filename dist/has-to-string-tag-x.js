@@ -2,13 +2,13 @@
 {
   "author": "Graham Fairweather",
   "copywrite": "Copyright (c) 2015-2017",
-  "date": "2019-07-13T02:06:39.765Z",
+  "date": "2019-07-14T21:45:16.956Z",
   "describe": "",
   "description": "Tests if ES6 @@toStringTag is supported.",
   "file": "has-to-string-tag-x.js",
-  "hash": "8bbb9bb15b4c992d2aed",
+  "hash": "f14f49ecdf500fc04bf3",
   "license": "MIT",
-  "version": "2.0.2"
+  "version": "2.0.3"
 }
 */
 (function webpackUniversalModuleDefinition(root, factory) {
@@ -297,7 +297,6 @@ function attempt(fn) {
     };
   }
 }
-;
 
 
 // EXTERNAL MODULE: ./node_modules/is-symbol/index.js
