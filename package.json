@@ -1,6 +1,6 @@
 {
   "name": "has-to-string-tag-x",
-  "version": "2.0.16",
+  "version": "2.0.17",
   "description": "Tests if ES6 @@toStringTag is supported.",
   "homepage": "https://github.com/Xotic750/has-to-string-tag-x",
   "author": {
@@ -22,6 +22,7 @@
   ],
   "module": "dist/has-to-string-tag-x.esm.js",
   "main": "dist/has-to-string-tag-x.js",
+  "jsdelivr": "dist/has-to-string-tag-x.min.js",
   "scripts": {
     "build:esm": "mkdirp dist && babel -s true --env-name esm src/has-to-string-tag-x.js -o dist/has-to-string-tag-x.esm.js",
     "build:base": "webpack --bail --progress --profile --colors",
@@ -49,7 +50,7 @@
     "url": "https://github.com/Xotic750/has-to-string-tag-x/issues"
   },
   "dependencies": {
-    "has-symbol-support-x": "^2.0.15",
+    "has-symbol-support-x": "^2.0.16",
     "is-symbol": "^1.0.2"
   },
   "devDependencies": {
