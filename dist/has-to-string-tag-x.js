@@ -2,13 +2,13 @@
 {
   "author": "Graham Fairweather",
   "copywrite": "Copyright (c) 2015-2017",
-  "date": "2019-07-25T21:41:34.393Z",
+  "date": "2019-07-26T12:49:55.274Z",
   "describe": "",
   "description": "Tests if ES6 @@toStringTag is supported.",
   "file": "has-to-string-tag-x.js",
   "hash": "54be3c5a928b3ac29e78",
   "license": "MIT",
-  "version": "2.0.19"
+  "version": "2.0.20"
 }
 */
 (function webpackUniversalModuleDefinition(root, factory) {
