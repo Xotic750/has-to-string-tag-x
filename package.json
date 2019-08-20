@@ -1,6 +1,6 @@
 {
   "name": "has-to-string-tag-x",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "Tests if ES6 @@toStringTag is supported.",
   "homepage": "https://github.com/Xotic750/has-to-string-tag-x",
   "author": {
@@ -51,7 +51,7 @@
     "url": "https://github.com/Xotic750/has-to-string-tag-x/issues"
   },
   "dependencies": {
-    "has-symbol-support-x": "^2.1.0",
+    "has-symbol-support-x": "^2.1.1",
     "is-symbol": "^1.0.2"
   },
   "devDependencies": {
