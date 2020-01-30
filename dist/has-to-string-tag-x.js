@@ -2,7 +2,7 @@
 {
   "author": "Graham Fairweather",
   "copywrite": "Copyright (c) 2015-2017",
-  "date": "2019-09-05T19:00:56.016Z",
+  "date": "2020-01-30T12:38:50.315Z",
   "describe": "",
   "description": "Tests if ES6 @@toStringTag is supported.",
   "file": "has-to-string-tag-x.js",
